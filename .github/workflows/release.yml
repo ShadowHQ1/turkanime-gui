@@ -158,15 +158,15 @@ jobs:
               'changelog': 'Otomatik güncelleme',
               'platforms': {
                   'windows': {
-                      'url': f'https://github.com/barkeser2002/turkanime-indirici/releases/download/{tag_name}/turkanime-gui-windows.exe',
+                      'url': f'https://github.com/barkeser2002/turkanime-gui/releases/download/{tag_name}/turkanime-gui-windows.exe',
                       'checksum': ''
                   },
                   'linux': {
-                      'url': f'https://github.com/barkeser2002/turkanime-indirici/releases/download/{tag_name}/turkanime-gui-linux',
+                      'url': f'https://github.com/barkeser2002/turkanime-gui/releases/download/{tag_name}/turkanime-gui-linux',
                       'checksum': ''
                   },
                   'macos': {
-                      'url': f'https://github.com/barkeser2002/turkanime-indirici/releases/download/{tag_name}/turkanime-gui-macos',
+                      'url': f'https://github.com/barkeser2002/turkanime-gui/releases/download/{tag_name}/turkanime-gui-macos',
                       'checksum': ''
                   }
               }

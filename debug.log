@@ -414,3 +414,78 @@ DEBUG: render_sources_page çaðrýldý, all_episodes: ['AniList', 'AnimeciX', 'Türk
 DEBUG: render_sources_page tamamlandý
 DEBUG: create_accordion baþladý
 DEBUG: create_accordion tamamlandý
+DEBUG: show_anime_details çaðrýldý: Mikata ga Yowa Sugite Hojo Mahou ni Toushite Ita Kyuutei Mahoushi, Tsuihou Sarete Saikyou wo Mezasu
+DEBUG: Thread baþlatýlýyor
+DEBUG: load_sources_worker baþladý
+DEBUG: Thread baþlatýldý
+DEBUG: show_anime_details tamamlandý
+DEBUG: TürkAnime aramasý baþlatýlýyor (timeout: 8s)
+DEBUG: AnimeciX aramasý baþlatýlýyor (timeout: 8s)
+DEBUG: AniList aramasý baþlatýlýyor (timeout: 5s)
+DEBUG: Anizle aramasý baþlatýlýyor (timeout: 10s)
+DEBUG: TürkAnime - sonuç bulunamadý
+DEBUG: TürkAnime tamamlandý: 0.18s
+DEBUG: Anizle - sonuç bulunamadý
+DEBUG: Anizle tamamlandý: 0.19s
+DEBUG: AniList tamamlandý - 1 sonuç
+DEBUG: AniList tamamlandý: 0.35s
+DEBUG: AnimeciX tamamlandý - 6 bölüm
+DEBUG: AnimeciX tamamlandý: 0.68s
+INFO: Baþarýyla yüklenen kaynaklar: AnimeciX, AniList
+INFO: Sonuç bulunmayan kaynaklar: TürkAnime, Anizle
+DEBUG: all_episodes set to: ['AniList', 'AnimeciX']
+DEBUG: render_sources_page scheduled
+DEBUG: render_sources_page çaðrýldý, all_episodes: ['AniList', 'AnimeciX']
+DEBUG: render_sources_page tamamlandý
+DEBUG: create_accordion baþladý
+DEBUG: create_accordion tamamlandý
+DEBUG: show_anime_details çaðrýldý: SPY×FAMILY Season 3
+DEBUG: Thread baþlatýlýyor
+DEBUG: load_sources_worker baþladý
+DEBUG: Thread baþlatýldý
+DEBUG: show_anime_details tamamlandý
+DEBUG: TürkAnime aramasý baþlatýlýyor (timeout: 8s)
+DEBUG: AnimeciX aramasý baþlatýlýyor (timeout: 8s)
+DEBUG: AniList aramasý baþlatýlýyor (timeout: 5s)
+DEBUG: Anizle aramasý baþlatýlýyor (timeout: 10s)
+DEBUG: Anizle - sonuç bulunamadý
+DEBUG: Anizle tamamlandý: 0.15s
+DEBUG: AniList tamamlandý - 1 sonuç
+DEBUG: AniList tamamlandý: 0.39s
+DEBUG: AnimeciX tamamlandý - 0 bölüm
+DEBUG: AnimeciX tamamlandý: 0.45s
+DEBUG: TürkAnime - sonuç bulunamadý
+DEBUG: TürkAnime tamamlandý: 1.71s
+INFO: Baþarýyla yüklenen kaynaklar: AnimeciX, AniList
+INFO: Sonuç bulunmayan kaynaklar: TürkAnime, Anizle
+DEBUG: all_episodes set to: ['AniList', 'AnimeciX']
+DEBUG: render_sources_page scheduled
+DEBUG: render_sources_page çaðrýldý, all_episodes: ['AniList', 'AnimeciX']
+DEBUG: render_sources_page tamamlandý
+DEBUG: create_accordion baþladý
+DEBUG: create_accordion tamamlandý
+DEBUG: show_anime_details çaðrýldý: Dandadan 2nd Season
+DEBUG: Thread baþlatýlýyor
+DEBUG: Thread baþlatýldý
+DEBUG: load_sources_worker baþladý
+DEBUG: show_anime_details tamamlandý
+DEBUG: TürkAnime aramasý baþlatýlýyor (timeout: 8s)
+DEBUG: AnimeciX aramasý baþlatýlýyor (timeout: 8s)
+DEBUG: Anizle aramasý baþlatýlýyor (timeout: 10s)
+DEBUG: AniList aramasý baþlatýlýyor (timeout: 5s)
+DEBUG: Anizle - sonuç bulunamadý
+DEBUG: Anizle tamamlandý: 0.17s
+DEBUG: AniList tamamlandý - 1 sonuç
+DEBUG: AniList tamamlandý: 0.39s
+DEBUG: AnimeciX tamamlandý - 24 bölüm
+DEBUG: AnimeciX tamamlandý: 1.09s
+DEBUG: TürkAnime tamamlandý - 12 bölüm
+DEBUG: TürkAnime tamamlandý: 1.15s
+INFO: Baþarýyla yüklenen kaynaklar: TürkAnime, AnimeciX, AniList
+INFO: Sonuç bulunmayan kaynaklar: Anizle
+DEBUG: all_episodes set to: ['AniList', 'AnimeciX', 'TürkAnime']
+DEBUG: render_sources_page scheduled
+DEBUG: render_sources_page çaðrýldý, all_episodes: ['AniList', 'AnimeciX', 'TürkAnime']
+DEBUG: render_sources_page tamamlandý
+DEBUG: create_accordion baþladý
+DEBUG: create_accordion tamamlandý

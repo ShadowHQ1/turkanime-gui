@@ -4,15 +4,15 @@
   "changelog": "Otomatik g\u00fcncelleme",
   "platforms": {
     "windows": {
-      "url": "https://github.com/barkeser2002/turkanime-indirici/releases/download/v9.3.6/turkanime-gui-windows.exe",
+      "url": "https://github.com/barkeser2002/turkanime-gui/releases/download/v9.3.6/turkanime-gui-windows.exe",
       "checksum": ""
     },
     "linux": {
-      "url": "https://github.com/barkeser2002/turkanime-indirici/releases/download/v9.3.6/turkanime-gui-linux",
+      "url": "https://github.com/barkeser2002/turkanime-gui/releases/download/v9.3.6/turkanime-gui-linux",
       "checksum": ""
     },
     "macos": {
-      "url": "https://github.com/barkeser2002/turkanime-indirici/releases/download/v9.3.6/turkanime-gui-macos",
+      "url": "https://github.com/barkeser2002/turkanime-gui/releases/download/v9.3.6/turkanime-gui-macos",
       "checksum": ""
     }
   }

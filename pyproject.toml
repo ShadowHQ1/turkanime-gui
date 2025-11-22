@@ -5,7 +5,7 @@ description = "Türkanime video oynatıcı ve indirici"
 authors = ["barkeser2002 <bariskeser@bariskeser.com>", "Junicchi <junicchi@waifu.club>"]
 readme = "README.md"
 license = "CC-BY-NC-ND-4.0"
-repository = "https://github.com/barkeser2002/turkanime-indirici"
+repository = "https://github.com/barkeser2002/turkanime-gui"
 keywords = ["turkanime","turk","anime","downloader"]
 
 classifiers = [

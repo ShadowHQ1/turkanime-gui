@@ -826,7 +826,7 @@ class MainWindow(ctk.CTk):
                 presence_data["buttons"] = [
                     {
                         "label": "Uygulamayı Edin",
-                        "url": "https://github.com/barkeser2002/turkanime-indirici/releases"
+                        "url": "https://github.com/barkeser2002/turkanime-gui/releases"
                     }
                 ]
                 
@@ -2331,7 +2331,7 @@ class MainWindow(ctk.CTk):
                             fn()
                             return
                     # Yedek: sürümler sayfasını aç
-                    webbrowser.open("https://github.com/barkeser2002/turkanime-indirici/releases")
+                    webbrowser.open("https://github.com/barkeser2002/turkanime-gui/releases")
                     self.message("Güncellemeler sayfasına yönlendirildi", error=False)
                 else:
                     self.message("Güncelleme yöneticisi bulunamadı", error=True)
@@ -2541,7 +2541,7 @@ class MainWindow(ctk.CTk):
         buttons = [
             {
                 "label": "Uygulamayı Edin",
-                "url": "https://github.com/barkeser2002/turkanime-indirici/releases"
+                "url": "https://github.com/barkeser2002/turkanime-gui/releases"
             }
         ]
         
@@ -4531,7 +4531,7 @@ class MainWindow(ctk.CTk):
                 buttons = [
                     {
                         "label": "Uygulamayı Edin",
-                        "url": "https://github.com/barkeser2002/turkanime-indirici/releases"
+                        "url": "https://github.com/barkeser2002/turkanime-gui/releases"
                     }
                 ]
                 

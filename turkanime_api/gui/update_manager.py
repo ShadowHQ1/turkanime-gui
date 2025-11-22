@@ -31,7 +31,7 @@ class UpdateManager:
         self.current_version = current_version
         self.dosyalar = dosyalar or Dosyalar()
         self.version_url = (
-            "https://github.com/barkeser2002/turkanime-indirici/"
+            "https://github.com/barkeser2002/turkanime-gui/"
             "releases/latest/download/version.json"
         )
         self.platform = get_platform()
