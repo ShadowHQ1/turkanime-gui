@@ -9,6 +9,11 @@ import toml
 from turkanime_api.common.utils import get_platform, get_arch
 from turkanime_api.common.ui_helpers import create_progress_section
 from turkanime_api.cli.dosyalar import Dosyalar
+import os
+import toml
+# ... diğer importlar ...
+
+from turkanime_api.version import __version__ as APP_VERSION
 
 
 class UpdateManager:
