@@ -21,18 +21,27 @@ class UpdateManager:
 
     def __init__(self, parent_window, current_version=None, dosyalar=None):
         self.parent = parent_window
-        
-        # pyproject.toml'dan versiyonu çek
+
+        # Eğer dışarıdan current_version verilmediyse dahili APP_VERSION'ı kullan
         if current_version is None:
-            try:
-                pyproject_path = os.path.join(os.path.dirname(__file__), '..', '..', 'pyproject.toml')
-                with open(pyproject_path, 'r', encoding='utf-8') as f:
-                    pyproject_data = toml.load(f)
-                current_version = pyproject_data['tool']['poetry']['version']
-            except Exception as e:
-                print(f"Versiyon okunamadı: {e}")
-                current_version = "1.0.0"
-        
+            current_version = APP_VERSION
+
+        # Geliştirme ortamında pyproject.toml'dan versiyonu çekmeyi dene
+        # (exe içinde bu dosya olmayacağı için hata alırsa APP_VERSION kalır)
+        try:
+            pyproject_path = os.path.join(
+                os.path.dirname(__file__),
+                '..', '..',
+                'pyproject.toml'
+            )
+            with open(pyproject_path, 'r', encoding='utf-8') as f:
+                pyproject_data = toml.load(f)
+            current_version = pyproject_data['tool']['poetry']['version']
+        except Exception as e:
+            print(f"Versiyon okunamadı: {e}")
+            # APP_VERSION zaten yukarıda current_version'a atanmış durumda
+            pass
+
         self.current_version = current_version
         self.dosyalar = dosyalar or Dosyalar()
         self.version_url = (
